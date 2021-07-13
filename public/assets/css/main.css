@@ -1057,3 +1057,10 @@ button {
 .resume:hover {
 	background: rgba(140, 148, 216, .7);
 }
+
+.center_everything{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
