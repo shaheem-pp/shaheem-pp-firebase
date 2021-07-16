@@ -1055,7 +1055,8 @@ button {
 }
 
 .resume:hover {
-	background: rgba(140, 148, 216, .7);
+	opacity: .5 !important;
+	/* background: rgba(0, 0, 0, 0.466); */
 }
 
 .center_everything{
@@ -1084,5 +1085,10 @@ a:focus {
 }
 
 .f a:hover {
-	color: #666666 !important;
+	opacity: .5 !important;
+}
+
+.left-border{
+	border-left: 2px solid #fff;
+	padding-left: 1em;
 }
