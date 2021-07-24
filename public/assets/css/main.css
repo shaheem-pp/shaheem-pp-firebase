@@ -54,7 +54,7 @@ h6 {
 }
 
 h1 {
-	font-size: 7.2rem;
+	font-size: 7.rrem;
 }
 
 h2 {
@@ -329,7 +329,7 @@ button {
 
 	width: 5.7rem;
 	height: 5.7rem;
-	margin-left: 1em;
+	/* margin-left: 1em; */
 
 	vertical-align: middle;
 
