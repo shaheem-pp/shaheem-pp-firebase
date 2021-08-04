@@ -66,3 +66,5 @@ node_modules/
 .env
 
 firebase-tools-instant-win.exe
+.firebaserc
+firebase.json
