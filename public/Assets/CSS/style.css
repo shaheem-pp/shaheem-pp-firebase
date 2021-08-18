@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: #212529;
+}
+
+body {
+	/* background-image: linear-gradient(to right bottom, #8bbdff, #c0dcfe, #f8f9fa);
+	 */
+	/* background-image: linear-gradient(to right bottom, #afcded,  #d3e3f3, #e6eef7, #f8f9fa, #fafafa, #ffffff); */
+	/* background-image: url("../../Assets/Images/bg.png"); */
+	/* background-size: 100%; */
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+h1 {
+	padding: .7em 0;
+}
+
+
+.exp {
+	/* border: 1px solid #000000; */
+	border-radius: .25rem;
+	border-left: 6px solid #6c657d;
+	height: auto;
+	background-color: #F8F9Fa;
+
+}
+
+.exp p {
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.card {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+
+.blog {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.foot-blog {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 1em 0;
+}
+
+.ico {
+	font-size: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 0;
+}
+
+.ico-p :hover {
+	color: #6c657d !important;
+	transition: .2s;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.ico {
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+
+	#footer {
+		text-align: center;
+	}
+}
+
+.card {
+	border-color: #6c657d;
+}
+
+blockquote {
+	padding-left: 1.5em;
+	text-align: justify;
+	font-style: italic;
+	font-weight: 400;
+}
