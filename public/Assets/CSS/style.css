@@ -1,15 +1,16 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(Assets/Others/ThatsNeat-Regular.ttf);
+}
+
 * {
 	padding: 0;
 	margin: 0;
 	color: #212529;
+	font-family: myFirstFont;
 }
 
 body {
-	/* background-image: linear-gradient(to right bottom, #8bbdff, #c0dcfe, #f8f9fa);
-	 */
-	/* background-image: linear-gradient(to right bottom, #afcded,  #d3e3f3, #e6eef7, #f8f9fa, #fafafa, #ffffff); */
-	/* background-image: url("../../Assets/Images/bg.png"); */
-	/* background-size: 100%; */
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -23,7 +24,6 @@ h1 {
 
 
 .exp {
-	/* border: 1px solid #000000; */
 	border-radius: .25rem;
 	border-left: 6px solid #6c657d;
 	height: auto;
@@ -97,44 +97,3 @@ blockquote {
 .beige {
 	background-color: #F5F5CD;
 }
-
-.cards {
-	flex-direction: row;
-	align-items: center;
-}
-
-.cards-title {
-	font-weight: bold;
-}
-
-.cards img {
-	width: 30%;
-	margin-right: 1em;
-	border-top-right-radius: 0;
-	border-bottom-left-radius: calc(0.25rem - 1px);
-}
-
-@media only screen and (max-width: 768px) {
-	a {
-		display: none;
-	}
-
-	.cards-body {
-		padding: 0.5em 1.2em;
-	}
-
-	.cards-body .cards-text {
-		margin: 0;
-	}
-
-	.cards img {
-		width: 50%;
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-	.cards img {
-		width: 40%;
-	}
-}
-
