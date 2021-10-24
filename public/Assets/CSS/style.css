@@ -1,13 +1,22 @@
-@font-face {
-	font-family: myFirstFont;
-	src: url(Assets/Others/ThatsNeat-Regular.ttf);
-}
-
 * {
 	padding: 0;
 	margin: 0;
 	color: #212529;
-	font-family: myFirstFont;
+
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h5 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 900;
+}
+
+p,a {
+	font-family: 'Mali', cursive;
+	font-weight: 200;
 }
 
 body {
