@@ -1,32 +1,39 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'Nunito', sans-serif;
 }
 
-h1 {
-	font-family: 'Permanent Marker', cursive;
-}
-
-h2 {
-	font-family: 'Amatic SC', cursive;
-	font-weight: 900;
+/* h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Quattrocento', serif;
 }
 
 p,
 a {
-	font-family: 'Mali', cursive;
-	font-weight: 200;
-}
+	font-family: 'Fanwood Text',
+		serif;
+} */
 
 .exp {
 	border-radius: .25rem;
 	border-left: 6px solid #6c657d;
 	height: auto;
 	background-color: #F8F9Fa;
-	
+
 }
 
 .exp p {
 	padding: 0;
 	margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+	.skill-btn {
+		display: block;
+		width: 100%;
+	}
 }
