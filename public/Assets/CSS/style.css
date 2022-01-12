@@ -37,3 +37,8 @@ a {
 		width: 100%;
 	}
 }
+
+table td,
+table td * {
+	vertical-align: top;
+}
