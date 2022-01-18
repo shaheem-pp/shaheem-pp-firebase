@@ -1,0 +1,11 @@
+body {
+	background-image: linear-gradient(to right top, #f7931e, #ff723a, #ff4a5d, #ff1986, #ff00b3, #fb00ca, #f100e3, #df00ff, #c500ff, #a900ff, #8800ff, #5d00ff);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
