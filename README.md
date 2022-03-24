@@ -1,6 +1,6 @@
 # Shaheem PP
 ## Student Developer, Community Evangelist
-Student Developer, Community Evangelist, a team player and a leader who is passionate about learning and sharing technology expertise. Knows Python, Kotlin and C Languages. Recently Learning iOS Development. Also, a Front-End Designer with limited knowledge on HTML, CSS and Bootstrap.
+I'm a student developer, community evangelist, team player, and leader who is enthusiastic about learning and sharing technology. I'm also a Bachelor of Computer Application student from Kerala. I am fluent in Malayalam and English, as well as programming languages such as Python, Kotlin, and C. I recently started learning the Swift programming language. I'm also a Front-End Designer with knowledge of HTML, CSS, and Bootstrap. Reading and writing blogs are two of my favourite activities. I also love networking with others because it allows me to meet new people who share my interests. 
 
 -----
 
@@ -10,8 +10,8 @@ Student Developer, Community Evangelist, a team player and a leader who is passi
 
 [Resume](https://github.com/the-codeholic/shaheem-pp-firebase/blob/main/public/Assets/Others/resume.pdf)
 
-[LinkedIn](https://www.linkedin.com/in/the-codeholic/)
+[LinkedIn](https://www.linkedin.com/in/shaheem-pp/)
 
-[Medium Blog](https://the-codeholic.medium.com/)
+[Medium Blog](https://shaheem-pp.medium.com//)
 
 [YouTube Channel](https://www.youtube.com/c/shaheempp)
