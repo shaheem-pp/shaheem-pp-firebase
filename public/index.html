@@ -16,8 +16,9 @@
 	<link rel="manifest" href="Assets/Favicons/site.webmanifest">
 	<!-- Bootstrap CSS -->
 	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="Assets/CSS/bootstrap.css">
 	<link rel="stylesheet" href="Assets/CSS/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,41 +26,38 @@
 	<title> the.codeholic </title>
 </head>
 
-<body class="m-5">
-
-	<div class="jumbotron text-center">
+<body class="m-5 bg-dark text-light">
+	<div class="jumbotron bg-dark text-center">
 		<div class=" align-middle">
 			<h1 class="display-5">Shaheem PP</h1>
 			<h5> Student Developer, Community Evangelist</h5>
-			<hr class="my-4">
+			<!-- <div class="container"> -->
+			<!-- <hr class="my-4 bg-light"> -->
+			<!-- </div> -->
 			<p class="w-75 text-justify my-5 mx-auto">Student Developer, Community Evangelist, a team player and a leader who
 				is passionate about learning and sharing technology expertise. Knows Python, Kotlin and C Languages. Recently
-				Learning iOS Development. Also, a Front-End Designer with limited knowledge on HTML, CSS and Bootstrap.</p>
-			<button onClick="parent.open('https://github.com/shaheem-pp')" type="button" class="btn btn-outline-secondary">
+				Learning iOS Development. Also, a Front-End Designer with limited knowledge on HTML, CSS and Bootstrap.
+			</p>
+			<button onClick="parent.open('https://github.com/shaheem-pp')" type="button" class="btn btn-outline-light">
 				<i class="bx bxl-github"></i>
 			</button>
 			<button onClick="parent.open('https://www.linkedin.com/in/shaheem-pp/')" type="button"
-				class="btn btn-outline-secondary">
+				class="btn btn-outline-light">
 				<i class="bx bxl-linkedin"></i>
 			</button>
-			<button
-				onClick="parent.open('Assets/Others/resume.pdf')"
-				type="button" class="btn btn-outline-dark">
+			<button onClick="parent.open('Assets/Others/resume.pdf')" type="button" class="btn btn-outline-light">
 				Resume
 			</button>
-			<button onClick="parent.open('https://shaheem-pp.medium.com/')" type="button"
-				class="btn btn-outline-secondary">
+			<button onClick="parent.open('https://shaheem-pp.medium.com/')" type="button" class="btn btn-outline-light">
 				<i class="bx bxl-medium"></i>
 			</button>
-			<button onClick="parent.open('https://www.youtube.com/c/shaheempp')" type="button"
-				class="btn btn-outline-secondary">
+			<button onClick="parent.open('https://www.youtube.com/c/shaheempp')" type="button" class="btn btn-outline-light">
 				<i class="bx bxl-youtube"></i>
 			</button>
 		</div>
 	</div>
-
 	<div class="container">
-
+		<hr class="my-4 bg-light">
 		<div id="experience" class="py-5">
 			<h1>Experience</h1>
 			<br>
@@ -67,7 +65,7 @@
 				<div class="card-header">
 					<h2>Campus Community Manager</h2>
 				</div>
-				<div class="card-body text-dark">
+				<div class="card-body">
 					<h5 class="card-title">TinkerHub Foundation</h5>
 					<p> <b>Internship, June 2021 - Present</b></p>
 					<p class="">
@@ -78,29 +76,28 @@
 				</div>
 			</div>
 		</div>
-		<hr>
-
+		<hr class="my-4 bg-light">
 		<div id="skills" class="py-5">
 			<h1>Skills</h1>
 			<div class="text-center">
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Python</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Kotlin</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Swift</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Html</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">CSS</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Bootstrap</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Team Management</button>
-				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-dark">Leadership</button></div>
-
-			<hr>
-
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Python</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Kotlin</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Swift</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Html</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">CSS</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Bootstrap</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Team Management</button>
+				<button type="button" class="btn btn-lg skill-btn mx-1 my-4 btn-light">Leadership</button>
+			</div>
+			<hr class="my-4 bg-light">
 			<div id="communities" class="py-5">
 				<h1>Achievements</h1>
 				<br>
 				<div class="card border-dark mb-3">
 					<img class="card-img-top" src="Assets/Images/pygrammers.png" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">Community Outreach Co-ordinator, Pygrammers</h4>
+						<h5 class="card-title">
+							Community Outreach Co-ordinator, Pygrammers</h4>
 							<p class="card-text">Pygrammers is a community of Python Enthusiasts in Kerala. I mainly handles Community
 								Outreach,
 								handling social media like Instagram, LinkedIn and Facebook Pages. Creating contents in collaboration
@@ -113,12 +110,14 @@
 				<div class="card border-dark mb-3">
 					<img class="card-img-top" src="Assets/Images/tinkerhub.png" alt="Card image cap">
 					<div class="card-body">
-						<h5 class="card-title">Founder, TinkerHub SIAS</h3>
+						<h5 class="card-title">
+							Founder, TinkerHub SIAS</h3>
 							<p class="card-text">TinkerHub SIAS is the Campus Chapter of TinkerHub Foundation in SIAS. It is a tech
 								community who believes in Skill enhancement through peer-to-peer learning, networking with peers, and
 								help students to land to their dream tech job. As a founder I mainly handled the entire community,
 								bringing students more opportunities to learn and grow. Also taught 15+ students Python, conducted mini
-								hackathons and Bootcamps extends upto one month.</p>
+								hackathons and Bootcamps extends upto one month.
+							</p>
 					</div>
 				</div>
 				<br>
@@ -128,17 +127,12 @@
 						<h5 class="card-title">Co-Founder, Techsias</h5>
 						<p class="card-text">Techsias is a Tech Community in Safi Institute of Advanced Study(SIAS). We are a group
 							of communities who bridge gap between industry and academics. As part of Techsias I handled different
-							teams and events like 7 Day Bootcamps and Mini Hackathons.</p>
+							teams and events like 7 Day Bootcamps and Mini Hackathons.
+						</p>
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-			<hr>
-
+			<hr class="my-4 bg-light">
 			<div id="education" class="py-5">
 				<h1>Education</h1>
 				<br>
@@ -146,7 +140,7 @@
 					<div class="card-header">
 						<h2>Bachelor of Computer Application</h2>
 					</div>
-					<div class="card-body text-dark">
+					<div class="card-body text-light">
 						<h5 class="card-title">Safi Institute of Advanced Study</h5>
 						<p>
 							July 2019 - Present
@@ -188,13 +182,10 @@
 								<td>&nbsp;:&nbsp;</td>
 								<td>Member, IT Club</td>
 							</tr>
-
 						</table>
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 </body>
 
