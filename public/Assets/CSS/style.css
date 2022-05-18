@@ -1,34 +1,11 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5 {
-	font-family: 'Quattrocento', serif;
-}
-
-p,
-a {
-	font-family: 'Fanwood Text',
-		serif;
-} */
-
-.exp {
-	border-radius: .25rem;
-	border-left: 6px solid #6c657d;
-	height: auto;
-	background-color: #F8F9Fa;
-
-}
-
-.exp p {
-	padding: 0;
-	margin: 0;
+h1 {
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 540px) {
@@ -36,9 +13,4 @@ a {
 		display: block;
 		width: 100%;
 	}
-}
-
-table td,
-table td * {
-	vertical-align: top;
 }
