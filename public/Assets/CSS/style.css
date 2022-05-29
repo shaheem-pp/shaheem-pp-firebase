@@ -131,3 +131,22 @@ body{
   font-size: 22px;
   line-height: 40px;
 } */
+
+
+
+
+
+
+
+
+
+.reveal{
+  position: relative;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
