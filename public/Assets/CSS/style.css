@@ -32,6 +32,14 @@ h1 {
 	height: 100vh;
 }
 
+.cont1 p {
+	width: 70%;
+}
+
+.cont1 h5{
+	width: 80%;
+}
+
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
