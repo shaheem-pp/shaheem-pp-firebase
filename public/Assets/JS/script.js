@@ -1,7 +1,7 @@
 var options = {
 	strings: [
 		"an iOS developer",
-		"an Intern @TinkerHub",
+		"an Intern @TinkerHub Foundation",
 		"a Student Developer",
 		"a Community Evangelist",
 		"a Team Player",
