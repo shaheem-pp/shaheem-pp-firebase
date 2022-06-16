@@ -1,17 +1,17 @@
 var options = {
 	strings: [
-		"an iOS developer",
-		"an Intern @TinkerHub Foundation",
-		"a Student Developer",
-		"a Community Evangelist",
-		"a Team Player",
+		"Community Evangelist",
+		"Intern at TinkerHub Foundation",
+		"Team Player",
+		"iOS developer",
+		"Computer Science Student",
 	],
-	typeSpeed: 40,
-	backSpeed: 40,
-	backDelay: 1000,
+	typeSpeed: 50,
+	backSpeed: 25,
+	backDelay: 1500,
 	loop: true,
 	showCursor: true,
-	cursorChar: '|',
+	cursorChar: '_',
 
 };
 
