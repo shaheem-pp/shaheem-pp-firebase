@@ -55,3 +55,9 @@ h1 {
   transform: translateY(0);
   opacity: 1;
 }
+
+.centervh{
+	text-align: center;
+	padding: 5em;
+	word-wrap: break-word;
+}
