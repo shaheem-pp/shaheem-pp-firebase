@@ -1,9 +1,10 @@
 var options = {
 	strings: [
+		"Python Developer",
 		"Community Evangelist",
 		"Intern at TinkerHub Foundation",
 		"Team Player",
-		"iOS developer",
+		"Learning iOS developer",
 		"Computer Science Student",
 	],
 	typeSpeed: 50,
