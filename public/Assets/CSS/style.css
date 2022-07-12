@@ -65,3 +65,9 @@ h1 {
 .projects{
 	padding: 2em;
 }
+
+.card{
+	padding: 1em;
+	border: none;
+	height: fit-content;
+}
