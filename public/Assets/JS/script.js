@@ -8,8 +8,7 @@ var options = {
 	backDelay: 1500,
 	loop: true,
 	showCursor: true,
-	cursorChar: '_',
-
+	cursorChar: '|',
 };
 
 var typed = new Typed('#typed', options, {
