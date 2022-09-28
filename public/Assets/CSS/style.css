@@ -13,16 +13,17 @@ h1 {
 		display: block;
 		width: 100%;
 	}
+
 }
 
-.img{
+.img {
 	width: 10rem;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.cont1{
+.cont1 {
 	/* flex center contents */
 	display: flex;
 	flex-direction: column;
@@ -36,7 +37,7 @@ h1 {
 	width: 70%;
 }
 
-.cont1 h5{
+.cont1 h5 {
 	width: 80%;
 }
 
@@ -45,29 +46,37 @@ h1 {
 
 
 
-.reveal{
-  position: relative;
-  transform: translateY(10px);
-  opacity: 0;
-  transition: 2s all ease;
-}
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
+.reveal {
+	position: relative;
+	transform: translateY(10px);
+	opacity: 0;
+	transition: 2s all ease;
 }
 
-.centervh{
+.reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.centervh {
 	text-align: center;
 	padding: 5em;
 	word-wrap: break-word;
 }
 
-.projects{
+.projects {
 	padding: 2em;
 }
 
-.card{
+.card {
 	padding: 1em;
 	border: none;
 	height: fit-content;
+}
+
+.center-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
